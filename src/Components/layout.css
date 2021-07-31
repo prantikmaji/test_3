@@ -1,0 +1,293 @@
+
+.all{background-color: rgb(211, 203, 203);
+ 
+   margin: 0;
+    border: 4px solid rgb(236, 78, 78);
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+}
+
+
+
+.card_1{
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+border:4px solid rgb(243, 149, 149);
+background-repeat: 10px;
+border-radius: 10px;
+padding: 0;
+
+}
+.card1{
+
+
+
+
+}
+
+.card_2{
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    border:4px solid rgb(243, 149, 149);
+}
+
+.top_10{
+    text-align: center;
+    word-wrap: break-word;
+    font-size:1.1cm;
+    text-shadow: 10%  #000;
+    font: sans-serif;
+}
+.place_11{
+    text-align: center ;
+    word-wrap: break-word;
+    background-image: url("images/place.png");
+    background-repeat: no-repeat ;
+    background-position: bottom right;
+     background-size: 150px 100px;
+     border-radius: 10px;
+   
+}
+
+.temp{
+    background-image: url();}
+.fos_13{
+    background-image:url("images/weather.png") ;
+    overflow:hidden;
+    text-align: center;
+    background-repeat: no-repeat no-repeat;
+    background-position:bottom right;
+     background-size: 200px 90px;
+     background:cover;
+   
+     word-wrap: break-word;
+}
+.temp_12{
+    font-weight: bold;
+    text-align: center;
+    padding: 2px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-image: url("images/uv.png")  ;
+    background-repeat: no-repeat no-repeat;
+    background-position: bottom right;
+     background-size: 100px 100px;
+     background:cover;
+
+}
+.time_14{
+ padding-top: 20px;
+    text-align: center;
+ 
+    border-radius: 10px;
+    background-image: url("images/time.png")  ;
+    background-repeat: no-repeat ;
+    background-position:bottom right;
+     background-size: 100px 100px;
+  
+     font-weight:700;
+     font-size:1.9cm;
+   
+}
+
+.aqi_15{
+    background-image: url("images/aqi.png") ;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px;
+    background-repeat: no-repeat ;
+    background-position: bottom right;
+     background-size: 100px 100px;
+     background:cover;
+   
+}
+
+
+
+.day_16{
+    background-image: url() ;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2px;
+    font-weight:bold;
+}
+
+.img_17 {
+
+background-image: url("https://source.unsplash.com/900x800/?weather,rain,thunder");
+background-size: cover;
+width: 400px;height: 400px;
+text-align: center;
+top: 50%;
+
+ 
+
+}
+
+.img_17 div{
+opacity: 0;
+top: 50%;
+padding-top: 40%;
+ 
+
+}
+
+:hover.img_17{
+    opacity:0.8
+}
+:hover.img_17 div{
+    opacity:1;
+   text-decoration-color: white;
+}
+
+
+
+
+
+.uv_33{
+
+     background-image: url("https://img.icons8.com/color/96/wake-up-with-sun.png"); 
+     background-repeat: no-repeat;
+     background-position: bottom right;
+     background-size: 70px 70px;
+   
+}
+.hm_34{
+
+     background-image: url("https://img.icons8.com/color/96/000000/hygrometer.png"); 
+     background-repeat: no-repeat;
+     background-position: bottom right;
+     background-size: 70px 70px;
+}
+.vs_35{
+
+     background-image: url("https://img.icons8.com/fluency-systems-filled/48/fa314a/show-space-warps.png"); 
+     background-repeat: no-repeat;
+     background-position: bottom right;
+      background-size: 70px 70px;
+}
+.wn_36 {
+
+     background-image: url("https://img.icons8.com/color/48/000000/windy-weather--v2.png"); 
+     background-repeat: no-repeat;
+     background-position: bottom right; background-size: 70px 70px;
+}
+.ps_37{
+
+     background-image: url("https://image.flaticon.com/icons/png/512/4005/4005925.png"); 
+     background-repeat: no-repeat;
+     background-position: bottom right; background-size: 70px 70px;
+}
+.pr_38{
+
+     background-image: url("https://img-premium.flaticon.com/png/512/2719/premium/2719120.png?token=exp=1627743664~hmac=234989980555294dc8a0db12daef9553"); 
+     background-repeat: no-repeat;
+     background-position: bottom right; background-size: 70px 70px;
+}
+
+
+
+
+
+
+.search_bar{
+    padding: 0px;
+
+}
+.input{
+height: 30px;
+width: 250px;
+margin-right: 2px;
+border: 0px 1px linear-gradient(-45deg, #FFC796 0%, #FF6B95 100%);
+border-radius: 5px;
+
+
+}
+.search_btn{
+    background-image: linear-gradient(-45deg, #FFC796 0%, #FF6B95 100%);
+    width: 30px;
+    height: 30px;
+   padding: 1px;
+    border-radius: 10px;
+    border: 1px solid linear-gradient(-45deg, #FFC796 0%, #FF6B95 100%);;
+}
+
+.news{
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+}
+
+.news_hed{
+    text-align: center;
+    font-size: 0.7cm;
+    font-weight: 500;
+    padding-top: 4px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .all {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+    }
+     .days h4{
+         font-size: 15px;
+         font-weight: bold;
+     }
+     .input{
+width: 170px;
+     }
+
+     .highlights h1{
+         font-size: 25px;
+     }
+.card1 h3{
+font-size:20px;
+}
+
+
+.top_10{
+   
+}
+.place_11{
+  background-image: none;
+   
+}
+
+
+    
+.fos_13{
+  
+}
+.temp_12{
+  
+
+}
+.time_14{
+
+}
+
+.aqi_15{
+  
+   
+}
+
+
+
+.day_16{
+
+}
+
+.img_17 {
+    width: 200px;
+
+
+
+ 
+
+}
+
+  }
